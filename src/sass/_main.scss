@@ -47,9 +47,13 @@
 .works {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  article {
+    padding-inline: 20px;
+  }
   h3 {
     font-size: 24px;
     font-weight: 220;
@@ -73,20 +77,26 @@
       width: 25px;
       height: auto;
     }
-    .tooltipText {
-      visibility: hidden;
-      width: fit-content;
-      margin-top: 2.8rem;
-      border-radius: 5px;
-      padding: 0.5rem;
-      font-size: 14px;
-      position: absolute;
-      z-index: 1;
-      color: #121e2c;
-      background-color: #f87c5672;
+    button:hover svg path {
+      fill: #f87c56;
+      stroke: #f87c56;
     }
-    button:hover .tooltipText {
-      visibility: visible;
-    }
+  }
+}
+
+// Bottom links
+.bottom-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 25px;
+  a {
+    text-decoration: none;
+    color: t.$main-text-color;
+    font-family: t.$montserrat-font-family;
+    font-size: 16px;
+  }
+  a:hover {
+    color: #f87c56;
   }
 }

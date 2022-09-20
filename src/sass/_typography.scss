@@ -6,6 +6,8 @@ $main-font-family: "Inter", sans-serif;
 $syncopate-font-family: "Syncopate", sans-serif;
 $montserrat-font-family: "Montserrat", sans-serif;
 
+$main-text-color: #121e2c;
+
 html,
 body {
   font-family: $main-font-family;
@@ -13,5 +15,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   max-width: 100%;
   overflow-x: hidden;
-  color: #121e2c;
+  color: $main-text-color;
 }

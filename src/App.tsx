@@ -6,12 +6,10 @@ const App = () => {
   return (
     <main>
       <section className="landing-page">
-        <div className="top-icons"></div>
         <div className="landing-text">
           <h1>Diana Priediena</h1>
           <h2>portfolio</h2>
         </div>
-        <div className="arrow"></div>
       </section>
       <section className="skills">
         <ul>
@@ -30,18 +28,15 @@ const App = () => {
           <div className="project-icons">
             <button>
               <a href="https://beamish-bienenstitch-72deb3.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <span className="tooltipText">See the app</span>
                 <WebsiteIcon />
               </a>
             </button>
             <button>
               <a href="https://github.com/Di-Pri/impact-invest" target="_blank" rel="noopener noreferrer">
-                <span className="tooltipText">Check the repository</span>
                 <GithubIcon />
               </a>
             </button>
             <button onClick={() => navigate("/projectone")}>
-              <span className="tooltipText">Read more</span>
               <ReadmoreIcon />
             </button>
           </div>
@@ -52,12 +47,10 @@ const App = () => {
           <div className="project-icons">
             <button>
               <a href="https://app.makeimpact.io/academy/explore2" target="_blank" rel="noopener noreferrer">
-                <span className="tooltipText">See the app</span>
                 <WebsiteIcon />
               </a>
             </button>
             <button onClick={() => navigate("/projectone")}>
-              <span className="tooltipText">Read more</span>
               <ReadmoreIcon />
             </button>
           </div>
@@ -70,18 +63,15 @@ const App = () => {
           <div className="project-icons">
             <button>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <span className="tooltipText">See the app</span>
                 <WebsiteIcon />
               </a>
             </button>
             <button>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <span className="tooltipText">Check the repository</span>
                 <GithubIcon />
               </a>
             </button>
             <button onClick={() => navigate("/projectone")}>
-              <span className="tooltipText">Read more</span>
               <ReadmoreIcon />
             </button>
           </div>
@@ -92,22 +82,29 @@ const App = () => {
           <div className="project-icons">
             <button>
               <a href="https://di-pri.github.io/Hacked-Hogwarts-Student-List/" target="_blank" rel="noopener noreferrer">
-                <span className="tooltipText">See the app</span>
                 <WebsiteIcon />
               </a>
             </button>
             <button>
               <a href="https://github.com/Di-Pri/Hacked-Hogwarts-Student-List" target="_blank" rel="noopener noreferrer">
-                <span className="tooltipText">Check the repository</span>
                 <GithubIcon />
               </a>
             </button>
             <button onClick={() => navigate("/projectone")}>
-              <span className="tooltipText">Read more</span>
               <ReadmoreIcon />
             </button>
           </div>
         </article>
+      </section>
+      <section>
+        <div className="bottom-links">
+          <a href="https://github.com/Di-Pri" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/diana-priediena/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </div>
       </section>
     </main>
   );
