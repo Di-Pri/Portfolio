@@ -58,25 +58,6 @@ const App = () => {
       </section>
       <section className="works">
         <article>
-          <h3>Ordering form for a bar</h3>
-          <h4>JavaScript | React | Sass | REST API</h4>
-          <div className="project-icons">
-            <button>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <WebsiteIcon />
-              </a>
-            </button>
-            <button>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <GithubIcon />
-              </a>
-            </button>
-            <button onClick={() => navigate("/projectone")}>
-              <ReadmoreIcon />
-            </button>
-          </div>
-        </article>
-        <article>
           <h3>Student list</h3>
           <h4>HTML | CSS | JavaScript | REST API </h4>
           <div className="project-icons">

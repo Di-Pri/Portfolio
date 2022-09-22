@@ -25,10 +25,10 @@
 
 // Skills
 .skills {
-  //background-color: #34a245;
+  background-color: #34a245;
   //background-color: #528ccc;
   //background-color: #e55c31;
-  background-color: #f87c56;
+  //background-color: #f87c56;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -40,6 +40,7 @@
     font-size: 19px;
     padding-inline: 15px;
     font-weight: 400;
+    color: black;
   }
 }
 
@@ -58,6 +59,7 @@
     font-size: 24px;
     font-weight: 220;
     margin-bottom: 14px;
+    text-transform: uppercase;
   }
   h4 {
     font-size: 13px;

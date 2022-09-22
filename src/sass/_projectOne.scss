@@ -1,0 +1,54 @@
+@use "./typography" as t;
+
+.project {
+  header {
+    position: fixed;
+    margin: 10px;
+    button {
+      display: flex;
+      gap: 4px;
+      border: none;
+      border-radius: 5px;
+      background: white;
+      padding: 12px;
+      font-size: 0.9rem;
+      font-family: t.$montserrat-font-family;
+      font-weight: 500;
+      svg {
+        width: 11px;
+        height: 11px;
+      }
+    }
+  }
+
+  main {
+    padding: 15px 25px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 250;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 550;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 20px;
+      span {
+        font-weight: 550;
+      }
+    }
+    ul {
+      margin-left: 25px;
+      list-style-type: "\2713    ";
+      line-height: 2.5rem;
+    }
+  }
+}
