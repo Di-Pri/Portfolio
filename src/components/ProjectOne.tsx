@@ -1,6 +1,31 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { BackIcon } from "../assets";
+// Images for the project
+import One from "../assets/images/one/1.jpg";
+import Two from "../assets/images/one/2.jpg";
+import Three from "../assets/images/one/3.jpg";
+import Four from "../assets/images/one/4.jpg";
+import Five from "../assets/images/one/5.jpg";
+import Six from "../assets/images/one/6.jpg";
+import Seven from "../assets/images/one/7.jpg";
+import Eight from "../assets/images/one/8.jpg";
+import Nine from "../assets/images/one/9.jpg";
+import Ten from "../assets/images/one/10.jpg";
+import Eleven from "../assets/images/one/11.jpg";
+import Twelve from "../assets/images/one/12.jpg";
+import Thirteen from "../assets/images/one/13.jpg";
+import Fourteen from "../assets/images/one/14.jpg";
+import Fifteen from "../assets/images/one/15.jpg";
+import Sixteen from "../assets/images/one/16.jpg";
+import Seventeen from "../assets/images/one/17.jpg";
+import Eighteen from "../assets/images/one/18.jpg";
+import Nineteen from "../assets/images/one/19.jpg";
+import Twenty from "../assets/images/one/20.jpg";
+import TwentyOne from "../assets/images/one/21.jpg";
+import TwentyTwo from "../assets/images/one/22.jpg";
+import TwentyThree from "../assets/images/one/23.jpg";
+import TwentyFour from "../assets/images/one/24.jpg";
 
 const ProjectOne: React.FC = () => {
   const navigate = useNavigate();
@@ -67,8 +92,9 @@ const ProjectOne: React.FC = () => {
         <p>
           The stack of technologies I used while coding includes <span>Sass</span>, <span>React</span>, and <span>Typescript</span>. I
           worked with <span>git</span> and <span>GitHub</span> to both keep a remote backup of the files and to document progress in
-          general. For user authentication in my app I took advantage of the <span>Auth</span> service from <span>Firebase</span> and for
-          storing data that I collected from users and the companies that I created I put into the service <span>Firestore database</span>.
+          general. For user authentication in my app I took advantage of the <span>Auth</span> service from <span>Firebase</span>. For
+          storing data that I collected from users during onboarding process and the companies that I created I put into the service{" "}
+          <span>Firestore database</span>.
         </p>
         <p>
           To improve user experience by applying smooth transitions in the app and providing nice input fields I used{" "}
@@ -76,6 +102,33 @@ const ProjectOne: React.FC = () => {
           <span>BrowserStack</span> service. I also used Google <span>Lighthouse</span> audit to check and improve the performance of the
           app.
         </p>
+        <h2>Screens</h2>
+        <div className="projectImages">
+          <img src={One} alt="App screen" />
+          <img src={Two} alt="App screen" />
+          <img src={Three} alt="App screen" />
+          <img src={Four} alt="App screen" />
+          <img src={Five} alt="App screen" />
+          <img src={Six} alt="App screen" />
+          <img src={Seven} alt="App screen" />
+          <img src={Eight} alt="App screen" />
+          <img src={Nine} alt="App screen" />
+          <img src={Ten} alt="App screen" />
+          <img src={Eleven} alt="App screen" />
+          <img src={Twelve} alt="App screen" />
+          <img src={Thirteen} alt="App screen" />
+          <img src={Fourteen} alt="App screen" />
+          <img src={Fifteen} alt="App screen" />
+          <img src={Sixteen} alt="App screen" />
+          <img src={Seventeen} alt="App screen" />
+          <img src={Eighteen} alt="App screen" />
+          <img src={Nineteen} alt="App screen" />
+          <img src={Twenty} alt="App screen" />
+          <img src={TwentyOne} alt="App screen" />
+          <img src={TwentyTwo} alt="App screen" />
+          <img src={TwentyThree} alt="App screen" />
+          <img src={TwentyFour} alt="App screen" />
+        </div>
       </main>
     </div>
   );

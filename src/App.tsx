@@ -1,5 +1,9 @@
 import { GithubIcon, WebsiteIcon, ReadmoreIcon, LinkedinIcon } from "./assets";
 import { useNavigate } from "react-router-dom";
+// images
+import One from "./assets/images/landing/iphone1.png";
+import Two from "./assets/images/landing/iphone2.png";
+import Three from "./assets/images/landing/iphone3.png";
 
 const App = () => {
   const navigate = useNavigate();
@@ -23,6 +27,11 @@ const App = () => {
       </section>
       <section className="works">
         <article>
+          <div className="project-image">
+            <img src={One} alt="App screen" />
+            <img src={Two} alt="App screen" />
+            <img src={Three} alt="App screen" />
+          </div>
           <h3>Investing mobile app</h3>
           <h4>TypeScript | React | Sass | Firebase</h4>
           <div className="project-icons">
