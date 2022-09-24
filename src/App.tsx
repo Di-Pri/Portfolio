@@ -1,9 +1,12 @@
-import { GithubIcon, WebsiteIcon, ReadmoreIcon, LinkedinIcon } from "./assets";
+import { GithubIcon, WebsiteIcon, ReadmoreIcon } from "./assets";
 import { useNavigate } from "react-router-dom";
 // images
-import One from "./assets/images/landing/iphone1.png";
-import Two from "./assets/images/landing/iphone2.png";
-import Three from "./assets/images/landing/iphone3.png";
+import One from "./assets/images/landing/iphone1.jpg";
+import Two from "./assets/images/landing/iphone2.jpg";
+import Three from "./assets/images/landing/iphone3.jpg";
+import Four from "./assets/images/landing/iphone4.jpg";
+import Five from "./assets/images/landing/iphone5.jpg";
+import Six from "./assets/images/landing/iphone6.jpg";
 
 const App = () => {
   const navigate = useNavigate();
@@ -51,6 +54,11 @@ const App = () => {
           </div>
         </article>
         <article>
+          <div className="project-image">
+            <img src={Four} alt="App screen" />
+            <img src={Five} alt="App screen" />
+            <img src={Six} alt="App screen" />
+          </div>
           <h3>Internship project</h3>
           <h4>TypeScript | React | Redux | Scrum </h4>
           <div className="project-icons">
@@ -59,7 +67,7 @@ const App = () => {
                 <WebsiteIcon />
               </a>
             </button>
-            <button onClick={() => navigate("/projectone")}>
+            <button onClick={() => navigate("/projecttwo")}>
               <ReadmoreIcon />
             </button>
           </div>

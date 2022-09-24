@@ -2,32 +2,27 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { BackIcon } from "../assets";
 // Images for the project
-import One from "../assets/images/one/1.jpg";
-import Two from "../assets/images/one/2.jpg";
-import Three from "../assets/images/one/3.jpg";
-import Four from "../assets/images/one/4.jpg";
-import Five from "../assets/images/one/5.jpg";
-import Six from "../assets/images/one/6.jpg";
-import Seven from "../assets/images/one/7.jpg";
-import Eight from "../assets/images/one/8.jpg";
-import Nine from "../assets/images/one/9.jpg";
-import Ten from "../assets/images/one/10.jpg";
-import Eleven from "../assets/images/one/11.jpg";
-import Twelve from "../assets/images/one/12.jpg";
-import Thirteen from "../assets/images/one/13.jpg";
-import Fourteen from "../assets/images/one/14.jpg";
-import Fifteen from "../assets/images/one/15.jpg";
-import Sixteen from "../assets/images/one/16.jpg";
-import Seventeen from "../assets/images/one/17.jpg";
-import Eighteen from "../assets/images/one/18.jpg";
-import Nineteen from "../assets/images/one/19.jpg";
-import Twenty from "../assets/images/one/20.jpg";
-import TwentyOne from "../assets/images/one/21.jpg";
-import TwentyTwo from "../assets/images/one/22.jpg";
-import TwentyThree from "../assets/images/one/23.jpg";
-import TwentyFour from "../assets/images/one/24.jpg";
+import One from "../assets/images/two/1.jpg";
+import Two from "../assets/images/two/2.jpg";
+import Three from "../assets/images/two/3.jpg";
+import Four from "../assets/images/two/4.jpg";
+import Five from "../assets/images/two/5.jpg";
+import Six from "../assets/images/two/6.jpg";
+import Seven from "../assets/images/two/7.jpg";
+import Eight from "../assets/images/two/8.jpg";
+import Nine from "../assets/images/two/9.jpg";
+import Ten from "../assets/images/two/10.jpg";
+import Eleven from "../assets/images/two/11.jpg";
+import Twelve from "../assets/images/two/12.jpg";
+import Thirteen from "../assets/images/two/13.jpg";
+import Fourteen from "../assets/images/two/14.jpg";
+import Fifteen from "../assets/images/two/15.jpg";
+import Sixteen from "../assets/images/two/16.jpg";
+import Seventeen from "../assets/images/two/17.jpg";
+import Eighteen from "../assets/images/two/18.jpg";
+import Errow from "../assets/images/two/errow.png";
 
-const ProjectOne: React.FC = () => {
+const ProjectTwo: React.FC = () => {
   const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -43,14 +38,13 @@ const ProjectOne: React.FC = () => {
         </button>
       </header>
       <main>
-        <h1>Investing mobile app</h1>
+        <h1>Internship</h1>
+        <h2>Company</h2>
+        <p>MMMMM</p>
         <h2>My role</h2>
-        <p>The application was built entirely by me.</p>
-        <h2>Problem formulation</h2>
-        <p>
-          How might I build an intuitive, aesthetically pleasing and clean mobile application so that young people with no or little
-          investing experience can start making investments in the companies that align with their sustainable values?
-        </p>
+        <p>Front-End Developer</p>
+        <h2>Team</h2>
+        <p>MMMMMMM</p>
         <h2>App features</h2>
         <ul>
           <li>Creating an account</li>
@@ -105,7 +99,7 @@ const ProjectOne: React.FC = () => {
           <span>BrowserStack</span> service. I also used Google <span>Lighthouse</span> audit to check and improve the performance of the
           app.
         </p>
-        <h2>Screens</h2>
+        <h2>Some screens that I have built</h2>
         <div className="projectImages">
           <img src={One} alt="App screen" />
           <img src={Two} alt="App screen" />
@@ -119,22 +113,28 @@ const ProjectOne: React.FC = () => {
           <img src={Ten} alt="App screen" />
           <img src={Eleven} alt="App screen" />
           <img src={Twelve} alt="App screen" />
-          <img src={Thirteen} alt="App screen" />
-          <img src={Fourteen} alt="App screen" />
-          <img src={Fifteen} alt="App screen" />
-          <img src={Sixteen} alt="App screen" />
-          <img src={Seventeen} alt="App screen" />
-          <img src={Eighteen} alt="App screen" />
-          <img src={Nineteen} alt="App screen" />
-          <img src={Twenty} alt="App screen" />
-          <img src={TwentyOne} alt="App screen" />
-          <img src={TwentyTwo} alt="App screen" />
-          <img src={TwentyThree} alt="App screen" />
-          <img src={TwentyFour} alt="App screen" />
+        </div>
+        <h2>Some screens that I have updated</h2>
+        <div className="updatedScreens">
+          <div>
+            <img src={Thirteen} alt="App screen" />
+            <img src={Errow} alt="App screen" />
+            <img src={Fourteen} alt="App screen" />
+          </div>
+          <div>
+            <img src={Fifteen} alt="App screen" />
+            <img className="errow" src={Errow} alt="App screen" />
+            <img src={Sixteen} alt="App screen" />
+          </div>
+          <div>
+            <img src={Seventeen} alt="App screen" />
+            <img className="errow" src={Errow} alt="App screen" />
+            <img src={Eighteen} alt="App screen" />
+          </div>
         </div>
       </main>
     </div>
   );
 };
 
-export default ProjectOne;
+export default ProjectTwo;
