@@ -51,6 +51,27 @@ const ProjectOne: React.FC = () => {
           How might I build an intuitive, aesthetically pleasing and clean mobile application so that young people with no or little
           investing experience can start making investments in the companies that align with their sustainable values?
         </p>
+        <h2>Tools and technologies</h2>
+        <ul>
+          <li>
+            <span>Language:</span> TypeScript
+          </li>
+          <li>
+            <span>Technologies:</span> React, Sass, npm
+          </li>
+          <li>
+            <span>Source control:</span> Git
+          </li>
+          <li>
+            <span>Database:</span> Firebase
+          </li>
+          <li>
+            <span>Tools:</span> Netlify, GitHub, Crazy 8's, flow chart, Business Model Canvas, user stories, Adobe XD, Adobe Illustrator
+          </li>
+          <li>
+            <span>Testing:</span> Think aloud test, 5-second test, BrowserStack, Google Lighthouse
+          </li>
+        </ul>
         <h2>App features</h2>
         <ul>
           <li>Creating an account</li>
@@ -67,8 +88,9 @@ const ProjectOne: React.FC = () => {
         </ul>
         <h2>Development process</h2>
         <p>
-          The main methodology that I opted to work with during this project was <span>Design Thinking</span>, since it helps to provide a
-          better user experience. Design Thinking is broken up into five stages, these are: Empathize, Define, Ideate, Prototype, and Test.
+          I chose to work with the <span>Design Thinking</span> approach, which is an iterative and non-linear process, with the purpose of
+          understanding the people for whom I am creating the product and providing a better user experience by making improvements during
+          development. Design Thinking is broken up into five stages, these are: Empathize, Define, Ideate, Prototype, and Test.
         </p>
         <p>
           During the Empathize phase, I did <span>desk research</span> to gain insights into the investment industry and conducted a{" "}
