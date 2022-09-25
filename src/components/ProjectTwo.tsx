@@ -90,21 +90,21 @@ const ProjectTwo: React.FC = () => {
           <img src={Eleven} alt="App screen" />
           <img src={Twelve} alt="App screen" />
         </div>
-        <h2>Some screens that I have updated</h2>
+        <h2 className="lastHeading">Some screens that I have updated</h2>
         <div className="updatedScreens">
           <div>
             <img src={Thirteen} alt="App screen" />
-            <img src={Errow} alt="App screen" />
+            <img src={Errow} alt="Errow" />
             <img src={Fourteen} alt="App screen" />
           </div>
           <div>
             <img src={Fifteen} alt="App screen" />
-            <img className="errow" src={Errow} alt="App screen" />
+            <img className="errow" src={Errow} alt="Errow" />
             <img src={Sixteen} alt="App screen" />
           </div>
           <div>
             <img src={Seventeen} alt="App screen" />
-            <img className="errow" src={Errow} alt="App screen" />
+            <img className="errow" src={Errow} alt="Errow" />
             <img src={Eighteen} alt="App screen" />
           </div>
         </div>

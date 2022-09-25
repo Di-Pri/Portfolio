@@ -20,11 +20,11 @@ const App = () => {
       </section>
       <section className="skills">
         <ul>
-          <li>JavaScript | TypeScript | React</li>
+          <li>React | JavaScript | TypeScript</li>
           <li>HTML | CSS | Sass</li>
           <li>Git | GitHub</li>
           <li>REST API | NoSQL</li>
-          <li>Scrum</li>
+          <li>SCRUM</li>
           <li>Adobe Creative Cloud (XD, Illustrator, Photoshop, InDesign)</li>
         </ul>
       </section>
@@ -68,27 +68,6 @@ const App = () => {
               </a>
             </button>
             <button onClick={() => navigate("/projecttwo")}>
-              <ReadmoreIcon />
-            </button>
-          </div>
-        </article>
-      </section>
-      <section className="works">
-        <article>
-          <h3>Student list</h3>
-          <h4>HTML | CSS | JavaScript | REST API </h4>
-          <div className="project-icons">
-            <button>
-              <a href="https://di-pri.github.io/Hacked-Hogwarts-Student-List/" target="_blank" rel="noopener noreferrer">
-                <WebsiteIcon />
-              </a>
-            </button>
-            <button>
-              <a href="https://github.com/Di-Pri/Hacked-Hogwarts-Student-List" target="_blank" rel="noopener noreferrer">
-                <GithubIcon />
-              </a>
-            </button>
-            <button onClick={() => navigate("/projectone")}>
               <ReadmoreIcon />
             </button>
           </div>
