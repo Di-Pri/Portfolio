@@ -38,17 +38,13 @@ const App = () => {
           <h3>Investing mobile app</h3>
           <h4>TypeScript | React | Sass | Firebase</h4>
           <div className="project-icons">
-            <button>
-              <a href="https://beamish-bienenstitch-72deb3.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <WebsiteIcon />
-              </a>
-            </button>
-            <button>
-              <a href="https://github.com/Di-Pri/impact-invest" target="_blank" rel="noopener noreferrer">
-                <GithubIcon />
-              </a>
-            </button>
-            <button onClick={() => navigate("/projectone")}>
+            <a href="https://beamish-bienenstitch-72deb3.netlify.app/" target="_blank" aria-label="Website link" rel="noopener noreferrer">
+              <WebsiteIcon />
+            </a>
+            <a href="https://github.com/Di-Pri/impact-invest" target="_blank" aria-label="GitHub link" rel="noopener noreferrer">
+              <GithubIcon />
+            </a>
+            <button aria-label="Read more" onClick={() => navigate("/impactinvest")}>
               <ReadmoreIcon />
             </button>
           </div>
@@ -62,12 +58,10 @@ const App = () => {
           <h3>Internship project</h3>
           <h4>TypeScript | React | Redux | Scrum </h4>
           <div className="project-icons">
-            <button>
-              <a href="https://app.makeimpact.io/academy/explore2" target="_blank" rel="noopener noreferrer">
-                <WebsiteIcon />
-              </a>
-            </button>
-            <button onClick={() => navigate("/projecttwo")}>
+            <a href="https://app.makeimpact.io/academy/explore2" target="_blank" aria-label="Website link" rel="noopener noreferrer">
+              <WebsiteIcon />
+            </a>
+            <button aria-label="Read more" onClick={() => navigate("/makeimpact")}>
               <ReadmoreIcon />
             </button>
           </div>

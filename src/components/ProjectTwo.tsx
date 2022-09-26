@@ -30,7 +30,7 @@ const ProjectTwo: React.FC = () => {
   return (
     <div className="project">
       <header>
-        <button onClick={() => navigate(-1)}>
+        <button aria-label="Go back" onClick={() => navigate(-1)}>
           <div>
             <BackIcon />
           </div>
