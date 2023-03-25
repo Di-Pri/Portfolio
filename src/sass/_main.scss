@@ -13,12 +13,30 @@
       font-size: 5.5vw;
       text-transform: uppercase;
       font-weight: 170;
+      opacity: 0;
+      animation: delay-text1 0.5s ease-in-out 0.2s 1 forwards;
+    }
+    @keyframes delay-text1 {
+      100% {
+        opacity: 1;
+      }
     }
     h2 {
       font-family: t.$syncopate-font-family;
-      font-size: 11.5vw;
+      font-size: 0;
       text-transform: uppercase;
       font-weight: 400;
+      opacity: 0;
+      animation: delay-text2 0.6s ease-in-out 0.55s 1 forwards;
+    }
+    @keyframes delay-text2 {
+      70% {
+        opacity: 0;
+      }
+      100% {
+        font-size: 11.5vw;
+        opacity: 1;
+      }
     }
   }
 }
@@ -26,7 +44,6 @@
 // Skills
 .skills {
   background-color: t.$main-app-color;
-  //background-color: #528ccc;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -37,7 +54,7 @@
     line-height: 4.3rem;
     font-size: 18px;
     padding-inline: 15px;
-    font-weight: 350;
+    font-weight: 320;
     color: white;
   }
 }
@@ -66,7 +83,7 @@
   }
   h3 {
     font-size: 24px;
-    font-weight: 220;
+    font-weight: 250;
     margin-bottom: 14px;
     text-transform: uppercase;
   }
