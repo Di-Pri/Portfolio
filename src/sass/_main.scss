@@ -14,7 +14,9 @@
       text-transform: uppercase;
       font-weight: 170;
       opacity: 0;
-      animation: delay-text1 0.5s ease-in-out 0.2s 1 forwards;
+      text-align: left;
+      margin-left: 0.5vw;
+      animation: delay-text1 0.7s ease-in-out 0.65s 1 forwards;
     }
     @keyframes delay-text1 {
       100% {
@@ -23,18 +25,33 @@
     }
     h2 {
       font-family: t.$syncopate-font-family;
-      font-size: 0;
+      font-size: 8vw;
       text-transform: uppercase;
       font-weight: 400;
       opacity: 0;
-      animation: delay-text2 0.6s ease-in-out 0.55s 1 forwards;
+      animation: delay-text2 0.7s ease-in-out 0.2s 1 forwards;
     }
     @keyframes delay-text2 {
-      70% {
+      30% {
         opacity: 0;
       }
       100% {
         font-size: 11.5vw;
+        opacity: 1;
+      }
+    }
+    h3 {
+      font-family: t.$montserrat-font-family;
+      font-size: 5.5vw;
+      text-transform: uppercase;
+      font-weight: 170;
+      opacity: 0;
+      text-align: right;
+      margin-right: 0.5vw;
+      animation: delay-text3 0.7s ease-in-out 0.65s 1 forwards;
+    }
+    @keyframes delay-text3 {
+      100% {
         opacity: 1;
       }
     }
@@ -48,14 +65,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: 0.065rem;
   ul {
     text-align: center;
     list-style: none;
-    line-height: 4.3rem;
-    font-size: 18px;
+    line-height: 2rem;
+    font-size: 18.5px;
     padding-inline: 15px;
-    font-weight: 320;
+    font-weight: 350;
     color: white;
+    li {
+      padding-top: 1.3rem;
+      padding-bottom: 1.3rem;
+    }
   }
 }
 
@@ -67,8 +89,10 @@
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.04rem;
+  margin: 20px 0 90px 0;
   article {
-    margin: 100px 30px 0 30px;
+    margin: 90px 30px 0 30px;
   }
   .project-image {
     display: flex;
@@ -81,6 +105,15 @@
       min-width: 40px;
     }
   }
+  .project-image-desktop {
+    margin-bottom: 35px;
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 560px;
+    }
+  }
+
   h3 {
     font-size: 24px;
     font-weight: 250;
@@ -117,16 +150,19 @@
 
 // Bottom links
 .bottom-links {
+  background-color: #121e2c;
   display: flex;
   justify-content: center;
-  gap: 40px;
-  margin-bottom: 25px;
-  margin-top: 70px;
+  gap: 70px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   a {
     text-decoration: none;
     color: t.$main-text-color;
     font-family: t.$montserrat-font-family;
     font-size: 1rem;
+    font-weight: 450;
+    color: white;
   }
   @media screen and (min-width: 500px) {
     a:hover {
